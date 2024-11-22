@@ -1,26 +1,31 @@
+
+  /* General body styling */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #333;
-    font-family: Arial, sans-serif;
-    color: white;
-  }
-  
-  .game-container {
-    position: relative;
-    text-align: center;
-  }
-  
-  canvas {
-    border: 2px solid white;
-    background-color: #000;
-  }
-  
-  .score {
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #fff;
+}
+
+/* Container for the game */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for the game canvas */
+canvas {
+  border: 5px solid #f1faee;
+  background: #1d3557;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/* Score styling */
+ 
